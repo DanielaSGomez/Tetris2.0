@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>TETRIS!</h1>
+        <h2>It's just that, a Tetris, but kinda cute ^^</h2>
+        <ul>
+            <li><button>Dark Mode</button></li>
+            <li><button>Light Mode</button></li>
+        </ul>
+    </header>
+    <main>
+        <div id="begin">
+            <button id="openConsole">EMPEZAR</button>
+        </div>
+        <div id="game">
+            <div class="console"></div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            <h3 id="sign">Daniela Gomez</h3>
+            <nav>
+                <ul>
+                    <li><a href="https://linkedin.com" target="_blank">Linkedin</a></li>
+                    <li><a href="https://google.com" target="_blank">Other Projects</a></li>
+                    <li><a href="https://github.com/DanielaSGomez" target="_blank">Github</a></li>
+                    <!--Its not good practice to have the email exposed, check another secure way to have direct mail button-->
+                    <li><a href="mailto:">Email</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
