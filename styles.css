@@ -1,16 +1,32 @@
-*{
-    background-color: bisque;
+* {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
 
-.begin
-{
-    
+li{
+    list-style: none;
 }
 
-.console
+#body_style
 {
+    background-color: #F6F5F2;
+}
+#header_bar
+{
+    background-color: #F3D0D7;
+}
+.begin {}
+
+.console {
     background-color: black;
     margin: 50%;
     width: 100px;
     height: 100px;
+}
+
+#footer_style
+{
+    background-color: #F0EBE3;
 }
