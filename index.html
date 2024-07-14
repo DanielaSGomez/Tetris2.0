@@ -14,17 +14,98 @@
 
 <body id="body_style">
     <header id="header_bar">
-            <h1>TETRIS!</h1>
-            <h2>It's just that, a Tetris, but kinda cute :3</h2>
+        <div>
+            <h1>SKZ TETRIS!</h1>
+            <h2>It's just that, a Tetris, but for STAYS</h2>
+        </div>
+        <div>
             <ul>
                 <li><button>Dark Mode</button></li>
                 <li><button>Light Mode</button></li>
             </ul>
+        </div>
+
     </header>
     <main>
         <div id="begin">
-            <button id="openConsole">EMPEZAR</button>
+            <form action="post">
+                <p>
+                    <label for="username">User</label>
+                    <input type="text" placeholder="Type a user name" id="username" name="username" minlength="2"
+                        maxlength="15" required>
+                </p>
+                <fieldset id="bias_option">
+                    <legend>Select your bias</legend>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="ot8" value="ot8" required>
+                            <label for="ot8">OT8</label>
+                        </div>                       
+                    </div>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="chan" value="chan">
+                            <label for="chan">Bang Chan</label>
+                        </div>                       
+                    </div>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="leeknow" value="leeknow">
+                            <label for="leeknow">Lee Know</label>
+                        </div>
+                    </div>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="changbin" value="changbin">
+                            <label for="changbin">Changbin</label>
+                        </div>
+                    </div>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="hyunjin" value="hyunjin">
+                            <label for="hyunjin">Hyunjin</label>
+                        </div>
+                    </div>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="han" value="han">
+                            <label for="han">Han</label>
+                        </div>
+                    </div>
+                    <div  id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="felix" value="felix">
+                            <label for="felix">Felix</label>
+                        </div>                    
+                    </div>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="seungmin" value="seungmin">
+                            <label for="seungmin">Seungmin</label>
+                        </div>
+                        
+                    </div>
+                    <div id="icon_container">
+                        <img src="img/ot8.jpg" alt="" class="icon">
+                        <div>
+                            <input type="radio" name="bias" id="in" value="in">
+                            <label for="in">I.N</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <button id="openConsole">START!</button>
+            </form>
+
         </div>
+        <!-- https://open.spotify.com/playlist/16Oc8MUkwk6zaIoJeyWefV?si=24776059cdf748df -->
         <div id="game">
             <div class="console"></div>
 

@@ -8,7 +8,17 @@
 li{
     list-style: none;
 }
+a
+{
+    text-decoration: none;
+}
 
+h1{
+    /* TODO: check the spacing with another value or style*/
+    letter-spacing: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
 #body_style
 {
     background-color: #F6F5F2;
@@ -16,6 +26,35 @@ li{
 #header_bar
 {
     background-color: #F3D0D7;
+    text-align: center;
+}
+
+#icon_container:nth-of-type(odd)
+{
+    background-color: pink;
+}
+
+.icon
+{
+    border-radius: 50%;
+    width: 50%;
+}
+
+#bias_option
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#icon_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
 }
 .begin {}
 
