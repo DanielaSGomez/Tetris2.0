@@ -5,58 +5,87 @@
     font-style: normal;
 }
 
-li{
+li {
     list-style: none;
 }
-a
-{
+
+a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     /* TODO: check the spacing with another value or style*/
     letter-spacing: 20px;
     font-weight: 600;
     font-size: 40px;
 }
-#body_style
-{
+
+#body_style {
     background-color: #F6F5F2;
 }
-#header_bar
-{
+
+#header_bar {
     background-color: #F3D0D7;
     text-align: center;
+    padding: 2%;
 }
 
-#icon_container:nth-of-type(odd)
-{
+ul{
+    padding-inline-start: 0;
+}
+
+#mode ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#icon_container:nth-of-type(odd) {
     background-color: pink;
 }
 
-.icon
-{
+.icon {
     border-radius: 50%;
     width: 50%;
 }
 
-#bias_option
-{
+#bias_option {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 5%;
 }
 
-#icon_container
-{
+#icon_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1%;
 }
-.begin {}
+
+#begin {
+    margin: 10% 20%;
+    background-color: pink;
+    padding: 5%;
+    text-align: center;
+
+}
+
+#openConsole
+{
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 15%;
+}
+
+#openConsole:hover
+{
+    background-color: black;
+    color: white;
+}
 
 .console {
     background-color: black;
@@ -65,7 +94,14 @@ h1{
     height: 100px;
 }
 
-#footer_style
-{
+#footer_style {
     background-color: #F0EBE3;
+    padding: 2%;
+    text-align: center;
+}
+
+      
+
+.hide {
+    display: none;
 }
